@@ -1,0 +1,75 @@
+{
+  "navigation": {
+    "services": "Services",
+    "destinations": "Destinations",
+    "fleet": "Fleet",
+    "differentiators": "Advantages",
+    "about": "About Us",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Your Journey Begins with Comfort and Safety",
+    "subtitle": "Executive transport, trips, and tourism in Rio de Janeiro with the punctuality and quality you deserve.",
+    "cta": "Request a Quote via WhatsApp"
+  },
+  "services": {
+    "title": "Our Services",
+    "items": [
+      { "title": "Airport Transfers", "description": "Arrive and depart from airports (Galeão and Santos Dumont) with punctuality and no stress." },
+      { "title": "Trips and Tourism", "description": "Explore the wonders of Rio and destinations like Paraty and Angra dos Reis with experienced drivers." },
+      { "title": "Corporate Transport", "description": "Transportation solutions for executives and teams, ensuring discretion, comfort, and efficiency." },
+      { "title": "Events and Groups", "description": "Take your guests to weddings, concerts, and events safely and comfortably." }
+    ]
+  },
+  "destinations": {
+    "title": "Main Destinations"
+  },
+  "fleet": {
+    "title": "Our Fleet",
+    "items": [
+      { "name": "Executive Sedan", "description": "Comfort and discretion for up to 4 passengers." },
+      { "name": "Luxury SUV", "description": "Space and sophistication for family trips or small groups." },
+      { "name": "Executive Van", "description": "The ideal solution for larger groups, combining comfort and capacity." }
+    ]
+  },
+  "differentiators": {
+    "title": "Our Exclusive Advantages",
+    "items": [
+      { "title": "Safety First", "description": "Professional drivers and a fleet of new, regularly serviced vehicles ensure a safe journey for you and your family." },
+      { "title": "Punctuality Guaranteed", "description": "Total commitment to your schedule. We monitor flights and traffic to ensure you always arrive on time." },
+      { "title": "Comfort and Convenience", "description": "Clean vehicles with air conditioning, Wi-Fi, and bottled water. We offer child seats at no extra cost." },
+      { "title": "Total Flexibility", "description": "24/7 service and customized itineraries. We adapt the service to your needs, whether for leisure or business." }
+    ]
+  },
+  "about": {
+    "title": "Our History of Trust and Quality",
+    "description": "For over 10 years, JR Transfer has been dedicated to offering a transport service that goes beyond the journey. Our priority is your safety, comfort, and satisfaction. With a modern fleet and professional drivers, we guarantee a smooth and unforgettable travel experience, whether for business or leisure."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      { "question": "What areas do you serve?", "answer": "We serve the entire city of Rio de Janeiro, including airports (Galeão and Santos Dumont), hotels in the South Zone, Barra da Tijuca, and we also offer trips to nearby destinations such as Angra dos Reis, Búzios, and Arraial do Cabo." },
+      { "question": "How do I book a service?", "answer": "Booking is simple and fast. You can contact us directly via WhatsApp by clicking any of the buttons on the site, or by filling out the contact form. Our team will promptly respond with your quote." },
+      { "question": "Do you provide child seats?", "answer": "Yes! The safety of the little ones is our priority. We offer child seats and booster seats at no additional cost. Just remember to request one at the time of booking to ensure availability." },
+      { "question": "What are the payment methods?", "answer": "To secure your reservation, a 20% down payment via PIX or bank transfer to JR Transfer & City Tour is required. The remaining balance can be paid in cash, PIX, or by credit card. Credit card payments are subject to a 6% surcharge!" }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Fill out the form below to request a quote.",
+    "name": "Name",
+    "name_placeholder": "Your full name",
+    "email": "Email",
+    "email_placeholder": "youremail@example.com",
+    "message": "Message",
+    "submit": "Send via WhatsApp",
+    "step1_title": "Which service do you need?",
+    "step2_title": "Tell us more details",
+    "step3_title": "Almost there! What should we call you?",
+    "passengers": "Number of Passengers",
+    "date": "Service Date",
+    "details": "Details (Origin, Destination, Time, etc.)",
+    "details_placeholder": "E.g., Pick up at GIG Airport at 2 PM and drop off at a hotel in Copacabana."
+  }
+}

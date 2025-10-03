@@ -4,19 +4,18 @@ import { Icon } from "@/components/ui/Icon";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
-export function ServicesSection() {
+export function DifferentiatorsSection() {
   const { t } = useTranslation();
-  // Busca o array de items do JSON, com um fallback para um array vazio
-  const servicesItems = t("services.items", { returnObjects: true }) || [];
+  const differentiatorsItems = t("differentiators.items", { returnObjects: true }) || [];
 
   return (
-    <section id="servicos" className="w-full py-12 md:py-24 lg:py-32">
+    <section id="diferenciais" className="w-full py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
         <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12">
-          {t("services.title")}
+          {t("differentiators.title")}
         </h2>
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-          {Array.isArray(servicesItems) && servicesItems.map((service, index) => (
+          {Array.isArray(differentiatorsItems) && differentiatorsItems.map((item, index) => (
             <motion.div
               key={index}
               className="h-full"
@@ -28,11 +27,11 @@ export function ServicesSection() {
             >
               <Card className="bg-card/50 border-border/50 hover:bg-card/90 hover:border-primary transition-colors duration-300 h-full">
                 <CardHeader className="flex flex-col items-center text-center">
-                  <Icon name={siteContent.services[index].iconName} className="h-10 w-10 text-primary mb-4" />
-                  <CardTitle>{service.title}</CardTitle>
+                  <Icon name={siteContent.differentiators[index].iconName} className="h-10 w-10 text-primary mb-4" />
+                  <CardTitle>{item.title}</CardTitle>
                 </CardHeader>
                 <CardContent className="text-center font-sans">
-                  <p className="text-muted-foreground">{service.description}</p>
+                  <p className="text-muted-foreground">{item.description}</p>
                 </CardContent>
               </Card>
             </motion.div>

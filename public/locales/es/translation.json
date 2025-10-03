@@ -1,0 +1,75 @@
+{
+  "navigation": {
+    "services": "Servicios",
+    "destinations": "Destinos",
+    "fleet": "Flota",
+    "differentiators": "Diferenciales",
+    "about": "Sobre Nosotros",
+    "faq": "FAQ",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Su Viaje Comienza con Comodidad y Seguridad",
+    "subtitle": "Transporte ejecutivo, viajes y turismo en Río de Janeiro con la puntualidad y calidad que usted merece.",
+    "cta": "Solicitar Presupuesto por WhatsApp"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "items": [
+      { "title": "Traslados al Aeropuerto", "description": "Llegue y salga de los aeropuertos (Galeão y Santos Dumont) con puntualidad y sin estrés." },
+      { "title": "Viajes y Turismo", "description": "Explore las maravillas de Río y destinos como Paraty y Angra dos Reis con conductores experimentados." },
+      { "title": "Transporte Corporativo", "description": "Soluciones de transporte para ejecutivos y equipos, garantizando discreción, comodidad y eficiencia." },
+      { "title": "Eventos y Grupos", "description": "Lleve a sus invitados a bodas, conciertos y eventos con seguridad y comodidad." }
+    ]
+  },
+  "destinations": {
+    "title": "Principales Destinos"
+  },
+  "fleet": {
+    "title": "Nuestra Flota",
+    "items": [
+      { "name": "Sedán Ejecutivo", "description": "Comodidad y discreción para hasta 4 pasajeros." },
+      { "name": "SUV de Lujo", "description": "Espacio y sofisticación para viajes familiares o grupos pequeños." },
+      { "name": "Van Ejecutiva", "description": "La solución ideal para grupos más grandes, combinando comodidad y capacidad." }
+    ]
+  },
+  "differentiators": {
+    "title": "Nuestros Diferenciales Exclusivos",
+    "items": [
+      { "title": "Seguridad en Primer Lugar", "description": "Conductores profesionales y una flota de vehículos nuevos y revisados garantizan un viaje tranquilo para usted y su familia." },
+      { "title": "Puntualidad Garantizada", "description": "Compromiso total con sus horarios. Monitoreamos vuelos y tráfico para asegurar que llegue siempre a tiempo." },
+      { "title": "Comodidad y Conveniencia", "description": "Vehículos limpios, con aire acondicionado, Wi-Fi y agua a bordo. Ofrecemos sillas de coche para niños sin costo adicional." },
+      { "title": "Flexibilidad Total", "description": "Servicio 24/7 e itinerarios personalizados. Adaptamos el servicio a sus necesidades, ya sea por ocio o por negocios." }
+    ]
+  },
+  "about": {
+    "title": "Nuestra Historia de Confianza y Calidad",
+    "description": "Desde hace más de 10 años, JR Transfer se dedica a ofrecer un servicio de transporte que va más allá del trayecto. Nuestra prioridad es su seguridad, comodidad y satisfacción. Con una flota moderna y conductores profesionales, garantizamos una experiencia de viaje tranquila e inolvidable, ya sea por trabajo o por placer."
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "items": [
+      { "question": "¿Qué áreas atienden?", "answer": "Atendemos toda la ciudad de Río de Janeiro, incluyendo aeropuertos (Galeão y Santos Dumont), hoteles en la Zona Sur, Barra da Tijuca, y también realizamos viajes a destinos cercanos como Angra dos Reis, Búzios y Arraial do Cabo." },
+      { "question": "¿Cómo puedo agendar un servicio?", "answer": "La reserva es simple y rápida. Puede contactarnos directamente por WhatsApp, haciendo clic en cualquiera de los botones del sitio, o completando el formulario de contacto. Nuestro equipo responderá prontamente con su cotización." },
+      { "question": "¿Ofrecen asientos para niños?", "answer": "¡Sí! La seguridad de los más pequeños es nuestra prioridad. Ofrecemos sillas de coche y asientos elevados sin costo adicional. Solo recuerde solicitarlo al momento de la reserva para garantizar la disponibilidad." },
+      { "question": "¿Cuáles son los métodos de pago?", "answer": "Para garantizar su reserva, es necesario realizar un pago por adelantado del 20% a través de PIX o transferencia bancaria a favor de JR Transfer & City Tour. El saldo restante puede pagarse en efectivo, PIX o con tarjeta de crédito. ¡Los pagos con tarjeta de crédito tienen un recargo del 6%!" }
+    ]
+  },
+  "contact": {
+    "title": "Contáctenos",
+    "description": "Complete el siguiente formulario para solicitar un presupuesto.",
+    "name": "Nombre",
+    "name_placeholder": "Su nombre completo",
+    "email": "Correo Electrónico",
+    "email_placeholder": "suemail@ejemplo.com",
+    "message": "Mensaje",
+    "submit": "Enviar por WhatsApp",
+    "step1_title": "¿Qué servicio necesita?",
+    "step2_title": "Cuéntenos más detalles",
+    "step3_title": "¡Casi listo! ¿Cómo podemos llamarle?",
+    "passengers": "Número de Pasajeros",
+    "date": "Fecha del Servicio",
+    "details": "Detalles (Origen, Destino, Horario, etc.)",
+    "details_placeholder": "Ej: Recoger en el Aeropuerto GIG a las 14h y llevar al hotel en Copacabana."
+  }
+}

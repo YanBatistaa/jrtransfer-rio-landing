@@ -1,74 +1,45 @@
-import vanImage from "@/assets/fleet-van.jpg";
-import sedanImage from "@/assets/fleet-sedan.jpg";
-import suvImage from "@/assets/fleet-suv.jpg";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { siteContent } from "@/data/siteContent";
+import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
-const fleet = [
-  {
-    image: vanImage,
-    title: "Van Executiva Mercedes-Benz Sprinter",
-    description: "Até 15 passageiros",
-    alt: "Van Executiva Mercedes-Benz Sprinter preta para até 15 passageiros",
-  },
-  {
-    image: sedanImage,
-    title: "Sedan Executivo",
-    description: "Até 3 passageiros",
-    alt: "Sedan executivo preto premium para até 3 passageiros",
-  },
-  {
-    image: suvImage,
-    title: "SUV Premium",
-    description: "Até 6 passageiros",
-    alt: "SUV premium preto para até 6 passageiros com conforto executivo",
-  },
-];
+export function FleetSection() {
+  const { t } = useTranslation();
+  const fleetItems = t("fleet.items", { returnObjects: true }) || [];
 
-const FleetSection = () => {
   return (
-    <section id="frota" className="py-20 bg-background">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-            Nossa Frota
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Veículos modernos, climatizados e com seguro total para sua tranquilidade
-          </p>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {fleet.map((vehicle, index) => (
-            <div
+    <section id="frota" className="w-full py-12 md:py-24 lg:py-32 bg-background/50">
+      <div className="container px-4 md:px-6">
+        <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-12">
+          {t("fleet.title")}
+        </h2>
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          {Array.isArray(fleetItems) && fleetItems.map((vehicle, index) => (
+            <motion.div
               key={index}
-              className="group cursor-pointer overflow-hidden rounded-2xl shadow-soft hover:shadow-large transition-smooth"
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              whileHover={{ y: -5 }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+              viewport={{ once: true }}
             >
-              <div className="relative overflow-hidden">
-                <img
-                  src={vehicle.image}
-                  alt={vehicle.alt}
-                  className="w-full h-64 object-cover group-hover:scale-110 transition-smooth duration-500"
-                  loading="lazy"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-smooth"></div>
-              </div>
-              <div className="p-6 bg-white">
-                <h3 className="text-xl font-bold text-primary mb-2 group-hover:text-accent transition-smooth">
-                  {vehicle.title}
-                </h3>
-                <p className="text-muted-foreground">{vehicle.description}</p>
-              </div>
-            </div>
+              <Card className="bg-card/50 border-border/50 overflow-hidden group h-full">
+                <CardHeader className="p-0">
+                  <img
+                    src={siteContent.fleet[index].image}
+                    alt={`Foto do veículo ${vehicle.name}`}
+                    className="w-full h-60 object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                </CardHeader>
+                <CardContent className="p-6">
+                  <CardTitle>{vehicle.name}</CardTitle>
+                  <CardDescription className="font-sans text-muted-foreground">{vehicle.description}</CardDescription>
+                </CardContent>
+              </Card>
+            </motion.div>
           ))}
-        </div>
-
-        <div className="mt-12 text-center">
-          <p className="text-lg text-foreground/80">
-            Todos os veículos passam por manutenção regular e higienização rigorosa
-          </p>
         </div>
       </div>
     </section>
   );
-};
-
-export default FleetSection;
+}

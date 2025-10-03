@@ -1,0 +1,75 @@
+{
+  "navigation": {
+    "services": "Serviços",
+    "destinations": "Destinos",
+    "fleet": "Frota",
+    "differentiators": "Diferenciais",
+    "about": "Sobre",
+    "faq": "FAQ",
+    "contact": "Contato"
+  },
+  "hero": {
+    "title": "Sua Viagem Começa com Conforto e Segurança",
+    "subtitle": "Transfer executivo, viagens e turismo no Rio de Janeiro com a pontualidade e a qualidade que você merece.",
+    "cta": "Solicitar Orçamento via WhatsApp"
+  },
+  "services": {
+    "title": "Nossos Serviços",
+    "items": [
+      { "title": "Transfer para Aeroportos", "description": "Chegue e saia dos aeroportos (Galeão e Santos Dumont) com pontualidade e sem estresse." },
+      { "title": "Viagens e Turismo", "description": "Explore as maravilhas do Rio e destinos como Paraty e Angra dos Reis com motoristas experientes." },
+      { "title": "Transporte Corporativo", "description": "Soluções de transporte para executivos e equipes, garantindo discrição, conforto e eficiência." },
+      { "title": "Eventos e Grupos", "description": "Leve seus convidados a casamentos, shows e eventos com segurança e comodidade." }
+    ]
+  },
+  "destinations": {
+    "title": "Principais Destinos"
+  },
+  "fleet": {
+    "title": "Nossa Frota",
+    "items": [
+      { "name": "Sedan Executivo", "description": "Conforto e discrição para até 4 passageiros." },
+      { "name": "SUV de Luxo", "description": "Espaço e sofisticação para viagens em família ou pequenos grupos." },
+      { "name": "Van Executiva", "description": "A solução ideal para grupos maiores, unindo conforto e capacidade." }
+    ]
+  },
+  "differentiators": {
+    "title": "Nossos Diferenciais Exclusivos",
+    "items": [
+      { "title": "Segurança em Primeiro Lugar", "description": "Motoristas profissionais e uma frota de veículos novos e revisados garantem uma viagem tranquila para você e sua família." },
+      { "title": "Pontualidade Garantida", "description": "Compromisso total com seus horários. Monitoramos voos e trânsito para garantir que você chegue sempre na hora certa." },
+      { "title": "Conforto e Conveniência", "description": "Veículos limpos, com ar-condicionado, Wi-Fi e água a bordo. Oferecemos cadeirinhas para crianças sem custo adicional." },
+      { "title": "Flexibilidade Total", "description": "Atendimento 24/7 e roteiros personalizados. Adaptamos o serviço às suas necessidades, seja a lazer ou a negócios." }
+    ]
+  },
+  "about": {
+    "title": "Nossa História de Confiança e Qualidade",
+    "description": "Há mais de 10 anos, a JR Transfer se dedica a oferecer um serviço de transporte que vai além do trajeto. Nossa prioridade é a sua segurança, conforto e satisfação. Com uma frota moderna e motoristas profissionais, garantimos uma experiência de viagem tranquila e inesquecível, seja a trabalho ou a lazer."
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "items": [
+      { "question": "Quais áreas vocês atendem?", "answer": "Atendemos toda a cidade do Rio de Janeiro, incluindo aeroportos (Galeão e Santos Dumont), hotéis na Zona Sul, Barra da Tijuca, e também realizamos viagens para destinos da Costa Verde e Região dos Lagos, como Angra dos Reis, Búzios e Arraial do Cabo." },
+      { "question": "Como faço para agendar um serviço?", "answer": "O agendamento é simples e rápido. Você pode nos contatar diretamente pelo WhatsApp, clicando em qualquer um dos botões do site, ou preenchendo o formulário de contato. Nossa equipe responderá prontamente com seu orçamento." },
+      { "question": "Vocês oferecem cadeirinha para crianças?", "answer": "Sim! A segurança dos pequenos é nossa prioridade. Oferecemos cadeirinhas e assentos de elevação sem custo adicional. Apenas lembre-se de solicitar no momento da reserva para garantirmos a disponibilidade." },
+      { "question": "Quais são as formas de pagamento?", "answer": "Para garantir sua reserva é necessário que o cliente faça um PIX ou uma transferência bancária no valor de 20% em favor da JR Transfer & City Tour. O saldo poderá ser pago em dinheiro, PIX ou cartão de crédito. O pagamento no cartão tem um acréscimo de 6%!" }
+    ]
+  },
+  "contact": {
+    "title": "Fale Conosco",
+    "description": "Preencha o formulário abaixo para solicitar um orçamento.",
+    "name": "Nome",
+    "name_placeholder": "Seu nome completo",
+    "email": "Email",
+    "email_placeholder": "seuemail@exemplo.com",
+    "message": "Mensagem",
+    "submit": "Enviar via WhatsApp",
+    "step1_title": "Qual serviço você precisa?",
+    "step2_title": "Conte-nos mais detalhes",
+    "step3_title": "Quase lá! Como podemos te chamar?",
+    "passengers": "Número de Passageiros",
+    "date": "Data do Serviço",
+    "details": "Detalhes (Origem, Destino, Horário, etc.)",
+    "details_placeholder": "Ex: Buscar no Aeroporto GIG às 14h e levar para hotel em Copacabana."
+  }
+}
