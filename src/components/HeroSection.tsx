@@ -1,22 +1,25 @@
 import { Button } from "@/components/ui/button";
 import { siteContent } from "@/data/siteContent";
-import heroBg from "@/assets/hero-bg.jpg";
-import { useTranslation } from "react-i18next"; // 1. Importar o hook
+import { useTranslation } from "react-i18next";
 
 export function HeroSection() {
-  const { t } = useTranslation(); // 2. Inicializar o hook
+  const { t } = useTranslation();
 
   return (
     <section id="inicio" className="relative w-full h-[80vh] flex items-center justify-center text-center">
       <div className="absolute inset-0 bg-black/70 z-10" />
+
+      {/* Voltamos para a tag <img> padrão, com o caminho público correto */}
       <img
-        src={heroBg}
-        alt="Van da JR Transfer no Rio de Janeiro"
+        src="/images/hero-bg.jpg"
+        alt={t('hero.title')}
         className="absolute inset-0 w-full h-full object-cover"
+        loading="eager" /* A imagem principal deve carregar o mais rápido possível */
+        decoding="async"
       />
+      
       <div className="relative z-20 container px-4 md:px-6">
         <div className="space-y-6">
-          {/* 3. Substituir textos fixos por t('chave') */}
           <h1 className="text-4xl font-display tracking-tighter text-white sm:text-6xl md:text-7xl drop-shadow-lg">
             {t('hero.title')}
           </h1>

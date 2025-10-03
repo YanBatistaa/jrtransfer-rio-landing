@@ -13,8 +13,9 @@ export const siteContent = {
     { name: "services", href: "#servicos" },
     { name: "destinations", href: "#destinos" },
     { name: "fleet", href: "#frota" },
-    { name: "differentiators", href: "#diferenciais" }, // Adicionado link
+    { name: "differentiators", href: "#diferenciais" },
     { name: "about", href: "#sobre" },
+    { name: "faq", href: "#faq" },
     { name: "contact", href: "#contato" },
   ],
   services: [
@@ -24,19 +25,18 @@ export const siteContent = {
     { iconName: "Calendar" },
   ],
   fleet: [
-    { image: "/src/assets/fleet-sedan.jpg" },
-    { image: "/src/assets/fleet-suv.jpg" },
-    { image: "/src/assets/fleet-van.jpg" },
+    { image: "/images/fleet-sedan.jpg" },
+    { image: "/images/fleet-suv.jpg" },
+    { image: "/images/fleet-van.jpg" },
   ],
   destinations: [
-    { name: "BÚZIOS", image: "/src/assets/dest-buzios.jpg" },
-    { name: "ANGRA DOS REIS", image: "/src/assets/dest-angra.jpg" },
-    { name: "CABO FRIO", image: "/src/assets/dest-cabo-frio.jpg" },
-    { name: "PARATY", image: "/src/assets/dest-paraty.jpg" },
-    { name: "ARRAIAL DO CABO", image: "/src/assets/dest-arraial.jpg" },
-    { name: "CITY TOUR", image: "/src/assets/dest-city-tour.jpg" },
+    { name: "BÚZIOS", image: "/images/dest-buzios.jpg" },
+    { name: "ANGRA DOS REIS", image: "/images/dest-angra.jpg" },
+    { name: "CABO FRIO", image: "/images/dest-cabo-frio.jpg" },
+    { name: "PARATY", image: "/images/dest-paraty.jpg" },
+    { name: "ARRAIAL DO CABO", image: "/images/dest-arraial.jpg" },
+    { name: "CITY TOUR", image: "/images/dest-city-tour.jpg" },
   ],
-  // NOVA SEÇÃO DE DADOS (APENAS ÍCONES)
   differentiators: [
     { iconName: "ShieldCheck" },
     { iconName: "Clock" },

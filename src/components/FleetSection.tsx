@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 
 export function FleetSection() {
   const { t } = useTranslation();
-  const fleetItems = t("fleet.items", { returnObjects: true }) || [];
+  const fleetItems = t("fleet.items", { returnObjects: true }) as Array<{name: string, description: string}> || [];
 
   return (
     <section id="frota" className="w-full py-12 md:py-24 lg:py-32 bg-background/50">
@@ -27,8 +27,10 @@ export function FleetSection() {
                 <CardHeader className="p-0">
                   <img
                     src={siteContent.fleet[index].image}
-                    alt={`Foto do veículo ${vehicle.name}`}
+                    alt={`${t('fleet.title')} - ${vehicle.name}`}
                     className="w-full h-60 object-cover group-hover:scale-105 transition-transform duration-500"
+                    loading="lazy" /* Otimização nativa do navegador */
+                    decoding="async"
                   />
                 </CardHeader>
                 <CardContent className="p-6">
